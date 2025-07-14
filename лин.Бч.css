@@ -1,0 +1,45 @@
+
+  h1 {
+    color: red;
+  }
+
+  p {
+    color: green;
+  } 
+
+  div {
+    background-color: aqua;
+    color: blue;
+    width: 500px;
+    height: 150px;
+    border: 2px solid black;
+        
+  }
+
+  img {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid red;
+    width: 300px;
+    height: avto;
+  }
+
+  p {
+    display: block;
+    color: blue;
+    background-color: rgb(0, 255, 60);
+  }
+
+  .container {
+    display: block;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    background-color: coral;
+  }
+
+  .container p,
+  .container img  {
+    display: block;
+    background-color: cornflowerblue;
+  }

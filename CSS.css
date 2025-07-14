@@ -1,0 +1,48 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+.ul {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.container {
+   padding: 20px;
+   border: 1px solid black;
+}
+.Title {
+   font-size: 24px;
+   text-align: center;
+}
+.highlight {
+   color: red;
+   font-weight: bold;
+}
+
+#main-title {
+    text-align: center;
+    color: coral;
+    font-size: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
