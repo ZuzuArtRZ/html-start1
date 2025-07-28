@@ -1,0 +1,68 @@
+button:hover {
+    background-color: yellow; /*кнопка желтая при наведении*/
+    
+}
+
+input:focus {
+    border: 2px solid red;/* красные края*/
+   
+}
+
+/*. Задание 2.  */
+
+ul li:first-child {
+    color: green;/* 1 элемент списка зеленый */
+    
+}
+
+ul li:last-child {
+    color: blue;/* последний синий */
+}
+
+/*    Задание 3   */
+
+a:hover {
+    color: orange;/* ссылка меняется при наведении */
+
+}
+
+div p:nth-child(odd) {
+    background-color: aqua;/*нечетные абзацы внутри div  */
+}
+
+/*. Задание 4  */
+
+input:first-child:hover {
+    background-color: blueviolet;/*первый дочерний элм меняет цвет при наведении */
+
+}
+
+input:last-child:focus {
+    outline: 2px solid red;
+}
+
+
+
+
+
+.biue-box {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.green-box {
+    background-color: green;
+    color: white;
+    padding: 20px;
+
+}
+
+
+ 
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    background-color: #141414;
+}
+header {
+    padding: 40px 50px 10px 50px;
+    background-color: #141414;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+     width: 178px;
+    height: 51px;
+    
+}
+
+.menu a {
+    display: inline-block;
+    background-color: #118DA8;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    
+
+}

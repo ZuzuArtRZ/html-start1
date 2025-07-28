@@ -1,0 +1,179 @@
+
+/* 1 */
+
+.block {
+    display: block;
+    background-color: aqua;
+    padding: 10px;
+    margin: 5px;
+
+}
+.inline {
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 5px;
+
+}
+.flex {
+    display: flex;
+    background-color: brown;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+/* 2 */
+.container {
+    display: flex;
+    border: 2px solid blue;
+    padding: 10px;
+}
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+/* 3 */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+.item1 {
+    background-color: greenyellow;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 5px;
+    flex: 0 0 80px;
+    text-align: center;
+
+}
+
+/* 4 */
+
+.container {
+    display: flex;
+    height: 200px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+} 
+
+.item2 {
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* 5 */
+
+.container {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    border: 2px solid blue;
+}
+.item3 {
+    background-color: coral;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+.item4 {
+    flex: 1 1 100px;
+}
+.item5 {
+    flex: 2 1 150px;
+}
+.item6 {
+    flex: 1 2 80px;
+}
+
+/* 6 */
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    height: 100px;
+}
+.item {
+    background-color: cadetblue;
+    text-align: center;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item7 {
+    flex: 0 0 50%;
+}
+
+.item8 {
+    flex: 1 1 avto;
+}
+.item9 {
+    flex: 0 0 100px;
+
+}
+
+/* 7 */
+
+.menu {
+    display: flex;
+    justify-content: center; /* горизонт. выравнивание */
+    align-items: center; /* вертикальное выравнивание */
+    gap: 20px; /* расстояние между ссылками*/
+    height: 60px;
+    background-color: darkgoldenrod;
+    border: 3px solid black;
+}
+.menu a {
+    text-decoration: none;
+    color: crimson;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+/* 8 */
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.card {
+  flex: 1 1 30%;
+  height: 150px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: 1px solid blue;
+}
+
+
+
+
+
