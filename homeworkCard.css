@@ -1,0 +1,251 @@
+
+body {
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.header-1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    margin-bottom: 35px;
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+
+}
+.logo {
+    padding: 8px 12px;
+    width: 177px;
+    height: 41px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #DFDFDF;
+    border-radius: 8px;
+    gap: 10px;
+    width: 352px;
+    height: 41px;
+    padding: 12px;
+    
+}
+.search input {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #707070;
+}
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.nav {
+    display: flex;
+    font-size: 14px;
+    gap: 40px;
+}
+.nav a {
+    color: #000000;
+    text-decoration: none;
+}
+.nav a.active {
+    color: #5C53E9;
+}
+.button1 {
+    color: #FFFFFF;
+    background-color: #5C53E9;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* 2 */
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 35px;
+    padding: 20px 48px;
+
+}
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.logo {
+    padding: 20px;
+}
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.nav2 a {
+    text-decoration: none;
+    color: #242424;
+    font-size: 15px;
+}
+.nav2 a.active {
+    color: #5856D6;
+}
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.btn {
+    background-color: #5C53E9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 48px;
+
+}
+/* 3 */
+
+.header-3 {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 25px 36px;
+}
+.nav3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.nav3 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+
+}
+.nav3 a.active {
+    color: #5C53E9;
+}
+/* 4 */
+
+.header-4 {
+    background-color: #111928;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 25px 36px;
+}
+.nav4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.nav4 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+
+}
+.nav4 a.active {
+    color: #5C53E9;
+}
+
+/* 5*/
+
+
+.header-5 {
+    background-color: #111928;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 25px 36px;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 50px;
+}
+
+.logo-text {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+
+}
+.small-text {
+    font-size: 12px;
+
+}
+.big-text {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.button {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search-box {
+    display: flex;
+    border: 1px solid #D6D8DE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.search-box input {
+    padding-left: 40px;
+    border: 1px solid #D6D8DE;
+    width: 500px;
+    height: 44px;
+    border: none;
+    font-size: 16px;
+    
+}
+.lopo {
+    position: absolute;
+    right: 10px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+.nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
